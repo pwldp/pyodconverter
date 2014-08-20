@@ -22,13 +22,13 @@ The document formats are inferred from the file extensions.
 
 Since it uses the Python/UNO bridge, the script requires the UNO modules to be
 already present in your Python installation. Most of the time this means you
-need to use the Python version installed with OpenOffice.org, e.g. on Windows
+need to use the Python 3 version installed with OpenOffice.org, e.g. on Windows
 
-    > "C:\Program Files\OpenOffice.org 3.1\program\python" DocumentConverter.py test.odt test.pdf
+    > "C:\Program Files\OpenOffice.org 3.1\program\python3" DocumentConverter.py test.odt test.pdf
 
 or on Linux
 
-    $ /opt/openoffice.org3.1/program/python DocumentConverter.py test.odt test.pdf
+    $ /opt/openoffice.org3.1/program/python3 DocumentConverter.py test.odt test.pdf
 
 If you want to write your own scripts in Python, PyODConverter can also act as
 a Python module, exporting a DocumentConverter class with a very simple API.
