@@ -36,6 +36,10 @@ a Python module, exporting a DocumentConverter class with a very simple API.
 ChangeLog
 ---------
 
+v2.0 - 2014.08.20
+
+* Adapted to Python 3 based on [DocumentConverter.py](https://raw.githubusercontent.com/veltzer/linuxapi/master/scripts/DocumentConverter.py) by [velter](https://github.com/veltzer)
+
 v1.2 - 2012-03-10
 
 * Changed default port to 2002
