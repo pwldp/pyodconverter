@@ -1,7 +1,7 @@
-PyODConverter
-=============
+PyODConverter for Python 3
+==========================
 
-PyODConverter (for Python OpenDocument Converter) is a Python script that
+PyODConverter (for Python OpenDocument Converter) is a Python 3 script that
 automates office document conversions from the command line using
 LibreOffice or OpenOffice.org.
 
@@ -30,11 +30,19 @@ or on Linux
 
     $ /opt/openoffice.org3.1/program/python3 DocumentConverter.py test.odt test.pdf
 
+
+If you use Ubuntu 14.04 and LibreOffice packages from [LibreOffice PPA](https://launchpad.net/~libreoffice/+archive/ubuntu/ppa) there is no package named python3-uno, 
+it has been replaced by package `libreoffice-script-provider-python`.
+
 If you want to write your own scripts in Python, PyODConverter can also act as
 a Python module, exporting a DocumentConverter class with a very simple API.
 
 ChangeLog
 ---------
+
+vNEXT
+
+* Added filters for DOCX, XLSX, PPTX
 
 v2.0 - 2014.08.20
 

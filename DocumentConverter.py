@@ -61,6 +61,9 @@ EXPORT_FILTER_MAP = {
     "doc": {
         FAMILY_TEXT: { "FilterName": "MS Word 97" }
     },
+    "docx": {
+        FAMILY_TEXT: { "FilterName": "MS Word 2007 XML" }
+    },
     "rtf": {
         FAMILY_TEXT: { "FilterName": "Rich Text Format" }
     },
@@ -76,6 +79,9 @@ EXPORT_FILTER_MAP = {
     "xls": {
         FAMILY_SPREADSHEET: { "FilterName": "MS Excel 97" }
     },
+    "xlsx": {
+        FAMILY_SPREADSHEET: { "FilterName": "Calc MS Excel 2007 XML" }
+    },
     "csv": {
         FAMILY_SPREADSHEET: {
             "FilterName": "Text - txt - csv (StarCalc)",
@@ -87,6 +93,9 @@ EXPORT_FILTER_MAP = {
     },
     "ppt": {
         FAMILY_PRESENTATION: { "FilterName": "MS PowerPoint 97" }
+    },
+    "pptx": {
+        FAMILY_PRESENTATION: { "FilterName": "Impress MS PowerPoint 2007 XML" }
     },
     "swf": {
         FAMILY_DRAWING: { "FilterName": "draw_flash_Export" },
