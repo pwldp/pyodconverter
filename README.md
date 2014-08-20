@@ -38,7 +38,7 @@ ChangeLog
 
 v2.0 - 2014.08.20
 
-* Adapted to Python 3 based on [DocumentConverter.py](https://raw.githubusercontent.com/veltzer/linuxapi/master/scripts/DocumentConverter.py) by [velter](https://github.com/veltzer)
+* Adapted to Python 3 based on [DocumentConverter.py](https://raw.githubusercontent.com/veltzer/linuxapi/master/scripts/DocumentConverter.py) by [veltzer](https://github.com/veltzer)
 
 v1.2 - 2012-03-10
 
